@@ -25,14 +25,7 @@ body {
 }
 .App {
   min-height: 100vh;
-  background-image: radial-gradient(
-    circle,
-    #12008e,
-    #000a74,
-    #000d5a,
-    #000a40,
-    #050027
-  );
+  background-color: #097965;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,7 +135,6 @@ body {
   box-sizing: border-box;
   color: white;
   background-color: rgba(0, 0, 0, 0.1);
-  
 }
 .Task:hover {
   box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
@@ -217,23 +209,23 @@ body {
   .edit-task {
     width: 45%;
   }
-  .Task abbr{
+  .Task abbr {
     width: 60%;
   }
   .Task abbr h5 {
-  margin: 16px;
-  white-space: wrap;
-  overflow:inherit;
-  text-overflow:unset;
-}
+    margin: 16px;
+    white-space: wrap;
+    overflow: inherit;
+    text-overflow: unset;
+  }
   .controls {
     width: 30px;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     margin: 10px;
   }
-   .controls input {
+  .controls input {
     margin: 0;
-   }
+  }
 }
 @media screen and (max-width: 420px) {
   .MainContainer {
@@ -263,12 +255,12 @@ body {
   .Filter label {
     margin: 0 0 10px 0;
   }
-   .Task abbr{
+  .Task abbr {
     width: 70%;
   }
-    .controls {
-      margin: 10px 0;
-    }
+  .controls {
+    margin: 10px 0;
+  }
   .controls svg {
     width: 20px;
     height: 20px;
@@ -276,6 +268,5 @@ body {
   .controls input {
     width: 20px;
     transform: scale(1.5);
-    
   }
 }
